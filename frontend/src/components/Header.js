@@ -8,7 +8,7 @@ function Header({ email, onLogout }) {
   return (
     <>
       <header className="header">
-        <img className="logo" src={logo}/>
+        <img className="logo" src={logo} alt="logo"/>
         <ul className="header__info">
           {location.pathname === "/signin" && <li><NavLink className="header__link" to="/signup">Регистрация</NavLink></li>}
           {location.pathname === "/signup" && <li><NavLink className="header__link" to="/signin">Войти</NavLink></li>}
