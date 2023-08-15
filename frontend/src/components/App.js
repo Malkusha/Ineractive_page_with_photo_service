@@ -36,6 +36,7 @@ function App() {
         if (!data) {
           return;
         }
+        console.log(data);
         setEmail(data.email);
         setIsLoggedIn(true);
         navigate("/");
