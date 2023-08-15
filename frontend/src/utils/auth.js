@@ -32,7 +32,7 @@ export function getContent(token) {
       'Authorization': `Bearer ${token}`,
     }
   })
-  .then((res) => res.ok ? res.json : Promise.reject(`Ошибка: ${res.status}`))
+  .then((res) => res.ok ? res.json() : Promise.reject(`Ошибка: ${res.status}`))
 }
 
  
