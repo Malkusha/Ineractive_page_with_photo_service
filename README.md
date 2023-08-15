@@ -5,12 +5,12 @@
 
 
 
-Адрес репозитория: https://github.com/Malkusha/react-mesto-api-full-gha
+Адрес репозитория: https://github.com/Malkusha/react-mesto-full
 
 ## Ссылки на проект
 
-IP-адрес x.x.x.x
+IP 158.160.14.0
 
-Frontend https://...
+Frontend https://pashkusha.nomoreparties.co
 
-Backend https://...
+Backend https://api.pashkusha.nomoreparties.co
