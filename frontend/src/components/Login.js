@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import LoginForm from './LoginForm';
 import InfoToolTip from './InfoTooltip';
-import Success from '../images/Success.svg';
 import Fail from '../images/Fail.svg';
 
 
